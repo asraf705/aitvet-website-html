@@ -1869,7 +1869,7 @@ table th{
     background-color: rgba(128, 126, 126, 0.062);
 }
 
-@media (max-width:500px) {
+@media (max-width:750px) {
 
     .table thead {
         display: none;
