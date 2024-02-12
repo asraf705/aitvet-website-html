@@ -351,7 +351,7 @@ h6 {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.85);
-    background: url("../img/hero-bg-3.png") ;
+    background: url("../img/hero-bg-3.png");
     position: relative;
 
 }
@@ -1264,6 +1264,7 @@ section {
         width: 100%;
         flex-wrap: wrap;
     }
+
     .principle-massage {
         width: 100%;
     }
@@ -1674,6 +1675,10 @@ section {
     }
 }
 
+.singup {
+    float: right;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1854,28 +1859,30 @@ Payment Status
     margin-top: 0px;
     margin-bottom: 25px;
 }
+
 /* -------------------------------------------- */
-           /* status table */
+/* status table */
 /* -------------------------------------------- */
 
-.table{
+.table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.table td,.table th{
+.table td,
+.table th {
     padding: 12px 15px;
     border: 1px solid #ddd;
     text-align: center;
     font-size: 16px;
 }
 
-table th{
+table th {
     background-color: #18d26e;
-    color:#0a0a0a;
+    color: #0a0a0a;
 }
 
-.table tbody tr:nth-child(even){
+.table tbody tr:nth-child(even) {
     background-color: rgba(128, 126, 126, 0.062);
 }
 
@@ -1885,20 +1892,26 @@ table th{
         display: none;
     }
 
-    .table,.table tbody, .table tr, .table td{
+    .table,
+    .table tbody,
+    .table tr,
+    .table td {
         display: block;
         width: 100%;
     }
-    .table tr{
+
+    .table tr {
         margin-bottom: 15px;
     }
-    .table td{
+
+    .table td {
         text-align: right;
         padding-left: 50%;
         text-align: right;
         position: relative;
     }
-    .table td::before{
+
+    .table td::before {
         content: attr(data-label);
         position: absolute;
         left: 0;
